@@ -26,7 +26,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Helmet
-        htmlAttributes={{ lang: 'en' }}
         title="Hello next.js!"
         meta={meta}
       />

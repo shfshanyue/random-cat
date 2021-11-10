@@ -1,16 +1,12 @@
 import { Helmet } from 'react-helmet'
-import Link from 'next/link'
 
 const Home = () => (
-  <div className="p-4">
+  <div>
     <Helmet
-      title="Home | Hello next.js!"
-      meta={[{ property: 'og:title', content: 'Home' }]}
+      title="云吸一只猫"
+      meta={[{ property: 'og:title', content: '云吸一只猫' }]}
     />
-    <h1>Shanyue</h1>
-    <Link href="/about">
-      <a>About</a>
-    </Link>
+    <img src="https://source.unsplash.com/1600x900/?animal,cat" className="object-cover w-screen h-screen" />
   </div>
 )
 
